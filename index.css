@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.bg-red {
+    background-color: red;
+    color: #fcfcfc;
+    padding: 0.5rem;
+}
+
+li { list-style : none; }
+
+nav { 
+    background-color: blue; 
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+    color: #fcfcfc;
+}
+
+/* primary-section */
+.primary-section { margin-top: 2rem; }
+
+/* first-box */
+.first-box { 
+    line-height: 2.5rem; 
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.first-box h2 { font-size: 2rem; }
+
+.first-box p {
+    font-size: 1rem;
+    color: gray;
+}
+
+.first-box input {
+    outline: none;
+    border: lightblue 1px solid;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* second box */
+.second-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-rows: 1fr; */
+    grid-gap: 2rem;
+    border: gray 1px solid;
+    border-radius: 5px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.right .boxes { display: flex; }
+
+.box-edit {
+    color: #fcfcfc;
+    padding: 0.3rem;
+    margin-right: 1rem;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+
+.right .boxes .box1 { background-color: blue; }
+.right .boxes .box2 { background-color: grey; }
+.right .boxes .box3 { background-color: green; }
+.right .boxes .box4 { background-color: steelblue; }
+
+.list {
+    border: gray 1px solid;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    /* padding: 1rem; */
+}
+
+.list li {
+    border-bottom: gray 1px solid;
+    width: 100%;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.btn button {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    background-color: blue;
+    color: #fcfcfc;
+    border-radius: 15px;
+}
+
+.left img {
+    height: 200px;
+    width: 200px;
+}
+
+.btn button:hover { background-color: darkblue; }
+
+/* secondary-section */
+.secondary-section h3 { font-size: 1.5rem; }
+
+.grid {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+.box .content { display: flex; }
+
+.box .content .content-1 { background-color: blue; }
+.box .content .content-2 { background-color: green; }
+.box .content .content-3 { background-color: darkgoldenrod; }
+
+/* footer */
+.foot {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    background-color: grey;
+    text-align: center;
+    margin-top: 2rem;
+}
